@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="weforshe.css">
+<link rel="icon" type="image/png" href="icon.png">
+<title>
+We for She Campaign
+</title>
+</head>
+<body>
+<div id="header">
+<center>
+WE FOR SHE CAMPAIGN<br />
+<span style="font-size: 18pt">Loyola University Chicago</span>
+</center>
+</div>
+<div id="navbar">
+<ul class="nav">
+<li>
+<a href="index.html">Home</a>
+</li>
+<li>
+<a href="about.html">About Us</a>
+</li>
+<li>
+<a href="contact.html">Contact Us</a>
+</li>
+<li>
+<a href="pledge.html">The Pledge</a>
+</li>
+<li>
+<a href="gallery.html">Gallery</a>
+</li>
+<li>
+<a href="kickoff.html">Kick Off</a>
+</li>
+<li>
+<a href="acknowledge.html">Acknowledgements</a>
+</li>
+</ul>
+</div>
+<div id="main">
+<h2>Gallery</h2><br />
+<img id="image" src="wfs1.png" style="border: 5px solid #00CCCC"><br />
+<button onclick="changeImage()">Next Image</button>
+<br />
+<script language ="javascript">
+var i=2;
+var img = document.getElementById("image");
+function changeImage()
+{
+	if(i<7)
+	{
+	img.src= "wfs" + i + ".png";
+	i++;
+	}
+	else
+	{
+	i=1;
+	changeImage();
+	}	
+}
+</script>
+</div>
+</body>
+</html>

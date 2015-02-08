@@ -1,0 +1,138 @@
+body {
+background-color: #FFFFFF;
+/*background-image: url("blue-background.png");*/
+color: #000000;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 14pt;
+font-weight: bold;
+margin: 0;
+overflow: scroll;
+}
+
+a {
+color: #00CCCC;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+#header {
+font-family: Impact, Charcoal, sans-serif;
+border-top: 10px solid #000000;
+border-bottom: 10px solid #000000;
+background: #00CCCC;
+padding: 15px;
+width: 100%;
+font-size: 40pt;
+}
+
+#navbar {
+position: absolute;
+display: block;
+background: #CCCCCC;
+color: #000000;
+margin-top: 15px;
+margin-bottom: 5px;
+width: 100%;
+}
+
+ul.nav {
+text-align: center;
+}
+
+ul.nav li {
+display: inline;
+color: #000000;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+ul.nav li a {
+color: #000000;
+text-shadow: 2px 2px 2px #606060;
+text-decoration: none;
+}
+
+ul.nav li a:hover {
+background: #00CCCC;
+}
+
+ul {
+text-align: left;
+}
+
+ul li ul li {
+font-size: 12pt;
+}
+
+#main {
+background: #000000;
+color: #FFFFFF;
+width: 80%;
+margin-top: 7%;
+margin-left: 10%;
+margin-right: 10%;
+padding: 20px;
+text-align: center;
+border: 10px solid #00CCCC;
+}
+
+#column {
+background: linear-gradient(
+to right,
+#00CCCC,
+#00CCCC 45%,
+
+#000000 45%,
+#000000
+);
+overflow: scroll;
+}
+
+#col1 {
+float: left;
+padding: 5px;
+margin-left: 10px;
+}
+
+#col1 a {
+color: #000000;
+}
+
+#col1 a:hover {
+color: #CCCCCC;
+}
+
+#col2 {
+margin-left: 45%;
+}
+
+#col3 {
+float: left;
+padding: 2px;
+margin-left: 1px;
+}
+
+#col3 ul {
+width: 90%;
+}
+
+#col3 ul li ul li {
+font-size: 11pt;
+}
+
+#col4 {
+margin-left: 45%;
+}
+
+#col4 ul {
+width: 90%;
+}
+
+button {
+background: #00CCCC;
+}
