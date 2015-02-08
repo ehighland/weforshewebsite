@@ -1,6 +1,5 @@
 body {
 background-color: #FFFFFF;
-/*background-image: url("blue-background.png");*/
 color: #000000;
 font-family: Verdana, Geneva, sans-serif;
 font-size: 14pt;
@@ -26,7 +25,6 @@ border-top: 10px solid #000000;
 border-bottom: 10px solid #000000;
 background: #00CCCC;
 padding: 15px;
-width: 100%;
 font-size: 40pt;
 }
 
