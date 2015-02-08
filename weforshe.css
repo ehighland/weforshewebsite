@@ -5,6 +5,7 @@ font-family: Verdana, Geneva, sans-serif;
 font-size: 14pt;
 font-weight: bold;
 margin: 0;
+min-width: 1250px;
 overflow: scroll;
 }
 
@@ -36,6 +37,7 @@ color: #000000;
 margin-top: 15px;
 margin-bottom: 5px;
 width: 100%;
+min-width: 1250px;
 }
 
 ul.nav {
